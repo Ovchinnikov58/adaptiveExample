@@ -1,0 +1,97 @@
+.about__row {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+  -webkit-align-items: flex-start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  margin-bottom: 82px;
+  margin-right: 10px; }
+  @media (max-width: 1200px) {
+    .about__row {
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+      -webkit-flex-direction: column;
+          -ms-flex-direction: column;
+              flex-direction: column;
+      -webkit-box-pack: center;
+      -webkit-justify-content: center;
+          -ms-flex-pack: center;
+              justify-content: center;
+      -webkit-box-align: center;
+      -webkit-align-items: center;
+          -ms-flex-align: center;
+              align-items: center; } }
+  @media (max-width: 768px) {
+    .about__row {
+      margin-right: 30px; } }
+
+.about__img {
+  -webkit-box-flex: 0;
+  -webkit-flex: 0 1 50%;
+      -ms-flex: 0 1 50%;
+          flex: 0 1 50%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-left: 30px;
+  padding-right: 30px; }
+  .about__img img {
+    max-width: 100%; }
+  @media (max-width: 1200px) {
+    .about__img {
+      margin-bottom: 40px; } }
+
+.about__content {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1 1 50%;
+      -ms-flex: 1 1 50%;
+          flex: 1 1 50%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: relative;
+  padding: 0 0 0 30px; }
+  .about__content p {
+    max-width: 660px; }
+  .about__content:before {
+    content: '';
+    width: 1px;
+    height: 132px;
+    position: absolute;
+    display: block;
+    background: url(../img/line.png) center no-repeat;
+    left: 0;
+    top: 0; }
+    @media (max-width: 1200px) {
+      .about__content:before {
+        display: none; } }
+
+.about__title {
+  margin-bottom: 42px; }
+
+@media (max-width: 768px) {
+  .about__text {
+    margin-left: 0;
+    font-size: 12px; } }

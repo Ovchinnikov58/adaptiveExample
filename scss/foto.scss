@@ -1,0 +1,31 @@
+.foto {
+}
+.foto-body {
+    width: 100%;
+    max-width: 1900px;
+}
+.foto__row {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.foto__col {
+    flex: 1 1 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    @media (max-width: 1200px){
+        flex: 1 1 100%;
+    }
+}
+.foto__row-sm{
+    display: flex;
+    justify-content: center;
+}
+.foto__big {
+   img{max-width: 100%;}
+}
+.foto__small {
+   img{max-width: 100%;}
+}
+

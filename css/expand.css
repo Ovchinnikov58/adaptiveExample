@@ -1,0 +1,97 @@
+.expand__row {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-top: 40px;
+  max-width: 100%;
+  padding-bottom: 65px; }
+
+.expand__subtitle {
+  margin-bottom: 90px;
+  font-size: 18px; }
+  @media (max-width: 768px) {
+    .expand__subtitle {
+      margin-bottom: 20px; } }
+
+.expand__content {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center; }
+  @media (max-width: 1200px) {
+    .expand__content {
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+      -webkit-flex-direction: column;
+          -ms-flex-direction: column;
+              flex-direction: column; } }
+
+.expand__title {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1 1 50%;
+      -ms-flex: 1 1 50%;
+          flex: 1 1 50%;
+  text-align: center; }
+  @media (max-width: 1200px) {
+    .expand__title {
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+      -webkit-flex-direction: column;
+          -ms-flex-direction: column;
+              flex-direction: column;
+      margin-bottom: 20px; } }
+
+.expand__text {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1 1 50%;
+      -ms-flex: 1 1 50%;
+          flex: 1 1 50%;
+  position: relative;
+  margin-left: 76px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center; }
+  @media (max-width: 768px) {
+    .expand__text {
+      margin-left: 0;
+      font-size: 12px; } }
+  .expand__text p {
+    max-width: 80%; }
+  .expand__text:before {
+    content: '';
+    width: 1px;
+    height: 100%;
+    position: absolute;
+    display: block;
+    background: url(../img/line.png) center no-repeat;
+    left: -40px; }
+    @media (max-width: 1200px) {
+      .expand__text:before {
+        display: none; } }
